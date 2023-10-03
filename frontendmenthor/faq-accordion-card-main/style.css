@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(180deg,hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+}
+.container{
+    background-color: white;
+    display: flex;
+    width: 66vw;
+}
+.second{
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    width: 50%vw;
+}

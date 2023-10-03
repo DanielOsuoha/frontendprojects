@@ -1,0 +1,88 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    background-color: rgba(250, 250, 250, 0.998);
+    /* font-family: "Fraunces"; */
+}
+.container{
+    display: flex;
+    /* border:solid 2px black; */
+    border-radius: 15px;
+    width: 40%;
+    height: 55%;
+}
+.first{
+    width: 20vw;
+    background-color: rgba(24, 54, 204, 0.81);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: 10px;
+}
+.cont{
+    width: 20vw;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+    align-content:space-around ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.grey{
+    color: rgb(219, 219, 229);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-items: center;
+    width: 20vh;
+    height: 20vh;
+    border-radius:10vh;
+    /* background-color: rgb(31, 57, 208); */
+    background: linear-gradient(rgb(48, 48, 229),rgb(70, 70, 186),rgb(65, 65, 215));
+    margin: 10px;
+}
+.react{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    padding-right: 5px;
+}
+button{
+    color: white;
+    background-color: rgba(48, 51, 71, 0.897);
+    border:none;
+    border-radius: 17.5px;
+    height: 35px;
+}
+
+button:hover{
+    background-color: rgb(22, 22, 236);
+    cursor: pointer;
+    
+}
+.inclass{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: flex-start;
+}
+p{
+    margin-bottom: .5px;
+    padding-bottom: .003px;
+}
